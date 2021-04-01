@@ -90,7 +90,7 @@ public class MainMenuButtons {
         highscoreBtn = addButton("Highscore.png");
         optionsBtn = addButton("Options.png");
         quitBtn = addButton("Quit.png");
-        musicBtn = addButton("Music on.png");
+        musicBtn = addButton("Music On.png");
 
         playBtn.setPosition(GameInfo.WIDTH / 2 - 80, GameInfo.HEIGHT / 2 + 50, Align.center);
         highscoreBtn.setPosition(GameInfo.WIDTH / 2 - 60, GameInfo.HEIGHT / 2 + -20, Align.center);
