@@ -7,16 +7,14 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import scenes.Gameplay;
+import scenes.MainMenu;
 
 public class GameMain extends Game {
 	private SpriteBatch batch;
-	Gameplay gameplay;
-
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		gameplay = new Gameplay(this);
-		setScreen(gameplay);
+		setScreen(new MainMenu(this));
 	}
 
 	@Override
